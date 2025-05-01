@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Sana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="welcome-screen" class="screen show">
+      <h1>Welcome, my love...</h1>
+      <p>Get ready for a journey of love and surprises!</p>
+      <button id="start-btn">Start</button>
+    </div>
+    <div id="game-screen" class="screen">
+      <h2>Tap the hearts!</h2>
+      <p id="game-instruction">Level 1: Tap 4 hearts</p>
+      <div id="hearts"></div>
+      <p id="tap-counter"></p>
+    </div>
+    <div id="birthday-screen" class="screen">
+      <h1>Happy Birthday Sana!</h1>
+    </div>
+    <div id="romantic-screen" class="screen">
+      <h2 id="typed-text"></h2>
+    </div>
+  </div>
+
+  <audio id="birthday-music" src="happy-birthday.mp3" loop></audio>
+  <audio id="romantic-music" src="aj-phir-tum-pe.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
